@@ -1,4 +1,4 @@
-// api/test-vnres.js
+// Server/Live.js
 export default async function handler(req, res) {
   try {
     const response = await fetch(`https://json.vnres.co/all_live_rooms.json?v=${Date.now()}`);
